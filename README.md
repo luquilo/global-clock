@@ -1,1 +1,2 @@
-# global-clock
+# bismillah
+membuat global clock
