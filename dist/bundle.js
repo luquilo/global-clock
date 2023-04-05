@@ -1,0 +1,2 @@
+/*! For license information please see bundle.js.LICENSE.txt */
+(()=>{var __webpack_modules__={"./src/index.js":()=>{eval("console.log('haloooooo')\n\n//# sourceURL=webpack://global-clock/./src/index.js?")}},__webpack_exports__={};__webpack_modules__["./src/index.js"]()})();
