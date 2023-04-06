@@ -12,8 +12,6 @@ const getData = async () => {
     // people adalah array berisi 10 data
     const people = response.data
     console.log(people)
-    // console.log(people == array)
-    // console.log(people[0])
     
     const cardListElement = document.createElement('card-list')
     // memasukkan 10 data ke dalam custom component
@@ -28,5 +26,7 @@ const getData = async () => {
     console.log(error);
   }
 };
+
+// name, email
 
 getData();

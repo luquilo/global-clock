@@ -16,16 +16,17 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jpg$/,
-        include: path.resolve(__dirname, "flags"),
-        use: {
-          loader: "file-loader",
-          options: {
-            name: "[name].[ext]",
-            outputPath: "flags",
-            publicPath: "flags",
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/',
+              publicPath: 'images/',
+            },
           },
-        },
+        ],
       },
     ],
   },
