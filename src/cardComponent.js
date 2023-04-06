@@ -11,7 +11,7 @@ class CardComponent extends HTMLElement {
   render() {
     this.innerHTML = `
       <div class="card">
-        <div class='image-wrapper' style='display: flex; align-items:center; justify-content: center; margin-top:50px; margin-bottom:50px;'>
+        <div class='image-wrapper'>
           <img src="${profilePicture}" alt="profile" width='150'>
         </div>        
         <h1><pre>nama                 : ${this._card.name}</pre></h1>

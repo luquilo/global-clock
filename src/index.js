@@ -1,5 +1,6 @@
 import axios from "axios";
 import './cardList.js'
+import './style/style.css'
 
 // const peopleList = document.getElementById("peopleList");
 
