@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 55%;
     height:300px;
     margin-left: 100px;
 }
@@ -29,9 +29,9 @@ main{
     padding:50px
 }
 
-.clock__card {
-  width: 400px;
-  height: 250px;
+.card {
+  width: 600px;
+  height: 450px;
   background: #ff9b30;
   padding: 1rem;
   border-radius: 1rem;
@@ -39,11 +39,11 @@ main{
   box-shadow: 0.4rem 0.4rem #000;
 }
 
-clock-component{
+card-component{
     display: inline-block;
     margin: 20px;
 }
 
-.clock__card > h1 {
+.card > h1 {
     font-size: 20px;
 }
