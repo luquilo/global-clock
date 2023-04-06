@@ -6,15 +6,15 @@ import './cardList.js'
 const getData = async () => {
   try {
 
-    // membuat api call
+    // api call
     const response = await axios.get('http://jsonplaceholder.typicode.com/users')
 
-    // people adalah array berisi 10 data
+    // people = array with 10 data from api
     const people = response.data
-    console.log(people)
+    // console.log(people)
     
     const cardListElement = document.createElement('card-list')
-    // memasukkan 10 data ke dalam custom component
+    // adding 10 data to custom component
     cardListElement.cards = people
     
 

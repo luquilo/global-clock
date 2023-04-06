@@ -1,2 +1,2 @@
 # bismillah
-membuat global clock
+membuat card identity

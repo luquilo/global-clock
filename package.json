@@ -1,5 +1,5 @@
 {
-  "name": "global-clock",
+  "name": "card-identity",
   "version": "1.0.0",
   "description": "membuat global clock",
   "main": "index.js",

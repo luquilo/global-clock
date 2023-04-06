@@ -6,6 +6,8 @@ class CardComponent extends HTMLElement {
     this.render();
   }
 
+  // penulisan mungkin agak terlihat tidak rapi disini karena pemberian style secara manual (white spacing dan inline style)
+
   render() {
     this.innerHTML = `
       <div class="card">
